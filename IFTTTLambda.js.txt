@@ -4,8 +4,6 @@
 
 const https = require('https');
 
-//const makerKey = '{{g2neqbQ54kRSiiJ7JTmQeaD7xhgDOQKdiJ2NoRsT033}}'; // change it to your Maker key
-
 exports.handler = (event, context, callback) => {
     console.log('Received event:', event);
 
