@@ -3,10 +3,10 @@ PANIC Button using AWS IoT button and IFTTT which can trigger and make a call (N
 
 ## Requirements Needed
   
-   1. AWS IoT Button
-   2. AWS account
-   3. IFTTT account
-   4. Android mobile phone
+    1. AWS IoT Button
+    2. AWS account
+    3. IFTTT account
+    4. Android mobile phone
 
 ## Register your AWS IoT Button using App
 
