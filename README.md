@@ -2,11 +2,14 @@
 PANIC Button using AWS IoT button and IFTTT which can trigger and make a call (Node js Version).
 
 ## Requirements Needed
+  
   1. AWS IoT Button
   2. AWS account
   3. IFTTT account
   4. Android mobile phone
+
 ## Register your AWS IoT Button using App
+
 *This application is not available in india, So if you need this you should download it from the internet as sdk(for
 indians only)
 
@@ -34,17 +37,22 @@ indians only)
                     It will automatically create the rules and policies for the Lambda Functions
                     
                 3. Delete this device.
+
 ## Create Two Lambda Functions From App
-    You need Two lambda Function to make this button
+   
+   You need Two lambda Function to make this button
     Select the two lamdbda Functions named below from the list in Application.
         1.  iotbutton_G030JF059346NHUH_iot-button-sms-nodejs
         2.  iotbutton_G030JF059346NHUH_iot-button-ifttt-maker-nodejs
-Now Using a System.
-     1) Replace 1st one with smsCode.js and 2nd one with iftttLambda.js
+## Now Using a System.
+    
+    1) Replace 1st one with smsCode.js and 2nd one with iftttLambda.js
      
      *** Select the same region in your mobile App for your AWS location ***
+
 ## Create an IFTTT account
-    1. Create an IFTTT account 
+   
+   1. Create an IFTTT account 
     
     2. You Can create an Applet by clicking the new applet.
     
@@ -58,8 +66,10 @@ Now Using a System.
     7. Copy the URL from Documentaion by and edit your maker event to yours.
     
     8. Use this in your IFTTTLambda.js to edit.
+
 ## Adding the right policies
-    Here We are invoking the iotbutton_G030JF059346NHUH_iot-button-ifttt-maker-nodejs from 
+   
+   Here We are invoking the iotbutton_G030JF059346NHUH_iot-button-ifttt-maker-nodejs from 
     iotbutton_G030JF059346NHUH_iot-button-sms-nodejs.
     
     So we have to add the right policies to iotbutton_G030JF059346NHUH_iot-button-sms-nodejs.
@@ -70,6 +80,8 @@ Now Using a System.
     4. Add the policy AWSLambdaRole
             AWSLambdaRole will enable the lambda function with power to
             invoke other lambda function
+
 ## Test your device
+     
      Now you can test your device by connecting to a wifi or
      using the test option in your AWS console.
