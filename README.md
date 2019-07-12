@@ -15,6 +15,7 @@ indians only)
 
 ## Download and Install AWS button dev app
    ### You can manually also register the button but through the app seems more easy.
+      
        1. Download the App AWS IoT button Dev app from the Play Store.
        
        2. Register your Device by following the steps in the App itself.
@@ -40,10 +41,11 @@ indians only)
 
 ## Create Two Lambda Functions From App
    
-   You need Two lambda Function to make this button
+    You need Two lambda Function to make this button
     Select the two lamdbda Functions named below from the list in Application.
         1.  iotbutton_G030JF059346NHUH_iot-button-sms-nodejs
         2.  iotbutton_G030JF059346NHUH_iot-button-ifttt-maker-nodejs
+
 ## Now Using a System.
     
     1) Replace 1st one with smsCode.js and 2nd one with iftttLambda.js
@@ -69,7 +71,7 @@ indians only)
 
 ## Adding the right policies
    
-   Here We are invoking the iotbutton_G030JF059346NHUH_iot-button-ifttt-maker-nodejs from 
+    Here We are invoking the iotbutton_G030JF059346NHUH_iot-button-ifttt-maker-nodejs from 
     iotbutton_G030JF059346NHUH_iot-button-sms-nodejs.
     
     So we have to add the right policies to iotbutton_G030JF059346NHUH_iot-button-sms-nodejs.
