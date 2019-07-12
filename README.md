@@ -54,7 +54,7 @@ indians only)
 
 ## Create an IFTTT account
    
-   1. Create an IFTTT account 
+    1. Create an IFTTT account 
     
     2. You Can create an Applet by clicking the new applet.
     
